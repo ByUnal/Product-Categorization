@@ -1,0 +1,9 @@
+dill==0.3.5.1
+Flask==2.2.2
+tensorflow==2.9.1
+keras==2.9.0
+matplotlib==3.5.3
+numpy==1.23.2
+pandas==1.4.4
+scikit-learn==1.1.2
+tqdm==4.64.1
