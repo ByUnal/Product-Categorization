@@ -32,9 +32,9 @@ Then for running the image in local network
 ```commandline
 docker run --network host --name product_categorization prod-cat
 ```
-Finally, you can reach the API from your browser by entering:
+Finally, you can use the API by sending request in JSON format:
 ```bash
-http://localhost:5000/
+http://localhost:5000/prediction
 ```
 
 ### via Python in Terminal
@@ -47,6 +47,12 @@ pip install -r requirements.txt
 Then, run the main.py file
 ```commandline
 python app.py
+```
+
+Finally, you can use the API by sending request to
+
+```bash
+http://localhost:5000/prediction
 ```
 
 ### Example Usage
