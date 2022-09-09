@@ -10,7 +10,8 @@ The API provides multi-label classification model for product categorization.
 
 ## Data Installation and Preparation
 Firstly, create ```data``` folder in the directory. Then, you need to download the 
-[dataset](https://drive.google.com/file/d/1jRPAJuJqQmaZZUiciDdmP0FZ3VGhQwWc/view?usp=sharing). Next, put it under the "data" folder.
+[dataset](https://drive.google.com/file/d/1jRPAJuJqQmaZZUiciDdmP0FZ3VGhQwWc/view?usp=sharing). Then, put it under the "data" folder.
+Next, [glove.6B.100d.txt](https://www.kaggle.com/datasets/danielwillgeorge/glove6b100dtxt) should be downloaded and placed in project's directory.
 You can see the steps I followed while preparing the data for the training below. Open the terminal in the project's directory first.
 Then go inside "src" folder. Run the code below, first.
 ```
